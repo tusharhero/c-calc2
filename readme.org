@@ -1,0 +1,11 @@
+#+title: README for c-calc2
+#+author: tusharhero
+#+email: tusharhero@sdf.org
+* C-calc2
+This is my second attempt at writing a calculator. The first attempt
+was [[https://github.com/tusharhero/c-calc][c-calc]].
+
+This calculator has a simpler approach (there is no tokenizer step).
+* TODO GOALS [0/2]
+- [ ] Feature parity with [[https://github.com/tusharhero/c-calc][c-calc]].
+- [ ] Operator precedence system.
