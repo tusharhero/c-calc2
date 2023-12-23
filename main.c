@@ -104,8 +104,8 @@ evaluate (char *expression, size_t length)
 }
 
 /*
-  Returns pointer to a dynamically allocated 0-terminated string.
-  The pointer returned needs to be managed separately.
+  Returns Line struct containing a pointer to a string. The pointer
+  returned needs to be managed separately.
  */
 Line
 get_line ()
