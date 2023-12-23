@@ -134,6 +134,8 @@ main (void)
   while ((expression = get_line ()).length != 0)
     {
       printf ("%f\n", evaluate (expression.string, expression.length));
+      free (expression.string);
     }
+  free (expression.string);
   return 0;
 }
